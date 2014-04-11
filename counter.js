@@ -7,6 +7,7 @@ simply.on('singleClick', function(e) {
     simply.subtitle(--count);
   } else if (e.button === 'select') {
     count=0
+	simply.subtitle(count);
   }
   localStorage.setItem('count', count);
 });
