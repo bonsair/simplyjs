@@ -1,1 +1,2 @@
-console.log('Lo basico');
+simply.title('Funcionara');
+simply.vibe('short');
