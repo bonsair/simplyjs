@@ -13,7 +13,7 @@ simply.on('longClick', function(e) {
 
 simply.on('accelTap', function(e) {
   console.log(util2.format('tapped accel axis $axis $direction!', e));
-  simply.subtitle('Pulasdo ' + (e.direction > 0 ? '+' : '-') + e.axis + '!');
+  simply.subtitle('Pulsado ' + (e.direction > 0 ? '+' : '-') + e.axis + '!');
 });
 
 simply.setText({
