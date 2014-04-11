@@ -2,7 +2,7 @@ console.log('Simply.js demo!');
 
 simply.on('singleClick', function(e) {
   console.log(util2.format('single clicked $button!', e));
-  simply.subtitle('Pressed ' + e.button + '!');
+  simply.subtitle('Pulsado ' + e.button + '!');
 });
 
 simply.on('longClick', function(e) {
@@ -13,10 +13,10 @@ simply.on('longClick', function(e) {
 
 simply.on('accelTap', function(e) {
   console.log(util2.format('tapped accel axis $axis $direction!', e));
-  simply.subtitle('Tapped ' + (e.direction > 0 ? '+' : '-') + e.axis + '!');
+  simply.subtitle('Pulasdo ' + (e.direction > 0 ? '+' : '-') + e.axis + '!');
 });
 
 simply.setText({
-  title: 'Simply Demo!',
-  body: 'This is a demo. Press buttons or tap the watch!',
+  title: 'Demostracion!',
+  body: 'Dale a los botones!',
 }, true);
